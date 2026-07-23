@@ -34,6 +34,8 @@ Note: the instructions ask us to have a lobby with a 20s countdown, followed by 
 
 This multiplayer version can be played in Chrome, Brave, Firefox, Edge, and Safari. As in its single-player precursor, all bonus powerups are implemented except bomb-push (throw). Intermittent [bugs](docs/bugs.md) remain. To tackle these, more play testing would be needed under various conditions and on different devices. It's still too sensitive to screen dimensions. Size, proportions, and alignment could be fixed better, leaving less to chance, especially on the intro. See [Further](docs/further.md) (in particular, DESIGN) for more detail.
 
+UPDATE (2026): An [AI code review](docs/ai-bug-review/ai-bug-review.md) identified many bugs and possible causes. At some point, it will be interesting to check through these, apply the obvious fixes (such as typos), and test the less obvious ones individually.
+
 ## 4. Framework
 
 In the version submitted for 01Founders, we used my homemade frontend framework, [overReact](https://github.com/pjtunstall/overreact), in a minimal way, just to construct the grid, so as to meet the requirements for the exercise. For more detail, see this [discussion](docs/framework.md), which includes the original plan and thoughts on how it might be developed it further. I've removed this dependency now as it was superfluous to the needs of the game.
